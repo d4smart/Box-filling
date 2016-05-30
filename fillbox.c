@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 {
 
   int n, blocks, i;
-  printf("\n\nEnter the number of balls and blocks: ");
+  printf("\n\nEnter the number of balls and blocks (to put blocks add number and position): ");
   while(scanf("%d%d", &n, &blocks) != EOF)
   {
     num = 0, r2 = 0;
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 
     printf("\nsum of R^2:\t %lf\n", r2);
     freeBox();
-    printf("\n\nEnter the number of balls and blocks: ");
+    printf("\n\nEnter the number of balls and blocks (to put blocks add number and position): ");
   }
 
   return 0;

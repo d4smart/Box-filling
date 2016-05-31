@@ -3,6 +3,8 @@
 *.ko
 *.obj
 *.elf
+fillbox
+multi-fillbox
 
 # Precompiled Headers
 *.gch

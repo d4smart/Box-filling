@@ -1,12 +1,11 @@
 /*=============================================================================
 #     FileName: multi-fillbox.c
 #         Desc: multithread search and compute, let the big balloon in the front list
-#       Author: LiChenda
+#       Author: d4smart
 #        Email: d4smart@foxmail.com
-#     HomePage: https://github.com/d4smart
+#     HomePage: https://github.com/d4smart/box-filling
 #      Version: 0.0.2
 #   LastChange: 2016-05-31 9:33
-#      History: 
 =============================================================================*/
 
 #include <stdlib.h>

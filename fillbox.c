@@ -1,12 +1,11 @@
 /*=============================================================================
-#     FileName: ballbox.c
-#         Desc: 
-#       Author: LiChenda
-#        Email: lichenda1996@gmail.com
-#     HomePage: https://github.com/LiChenda
+#     FileName: fillbox.c
+#         Desc: search, expand and compute 
+#       Author: d4smart
+#        Email: d4smart@foxmail.com
+#     HomePage: https://github.com/d4smart/box-filling
 #      Version: 0.0.1
 #   LastChange: 2016-05-29 21:08:30
-#      History:
 =============================================================================*/
 #include <stdlib.h>
 #include <stdio.h>

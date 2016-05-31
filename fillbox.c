@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
     printf("\n\nEnter the number of balls and blocks (to put blocks add number and position): ");
   }
 
+  printf("\n");
   return 0;
 }
 void putBlock(double x, double y)
@@ -103,7 +104,7 @@ void putBall()
       ball.y += step;
       ball.r = 0;
       double rstep = 0.1;
-      while(rstep > 0.00001)
+      while(rstep >= 0.00001)
       {
         if(ball.r > maxBall.r)
         {

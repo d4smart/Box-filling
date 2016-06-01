@@ -38,7 +38,7 @@ void putBlock(double x, double y);
 
 
 listNode *head = NULL;
-double step = 0.01;
+double step = 1/128.0;
 int num = 0;
 double r2 = 0;
 

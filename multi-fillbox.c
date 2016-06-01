@@ -50,7 +50,7 @@ void putBlock(double x, double y);	//向空间放入微小块
 
 listNode *head = NULL, *tail = NULL;    //链表头指针
 Ball maxBall;	        //用来存储最大的气球
-double step = 0.01;	//搜索步长
+double step = 1/128.0;	//搜索步长,浮点数表示1/128没有误差
 int num = 0;		//计数
 double r2 = 0;		// ∑r^2
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;	//互斥锁
